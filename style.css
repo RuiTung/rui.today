@@ -6,6 +6,7 @@
 	height: 900px;
 }
 .section-1-p {
+	float: right;
 	font-family: 'NemoyMedium';
 	font-size: 38px;
 	font-weight: 700;
