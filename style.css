@@ -29,15 +29,19 @@
 }
 .section-3-title {
 	text-align: center;
+	padding-top: 40px;
 	font-family: 'BeonRegular';
 	font-size: 30px;
 	font-weight: 700;
 	color: #ffffff;
 }
+.identity-description {padding: 80px;}
 .about-me-break {
-	height: 20px;
-	border-radius: 5px;
-	background-color: #F2668F;
+	height: 5px;
+    width: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #F2668F;
 }
 .section-3-identity {
 	text-align: center;
