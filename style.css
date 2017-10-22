@@ -28,19 +28,28 @@
 	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-3-bg.jpg');
 }
 .section-3-title {
+	text-align: center;
 	font-family: 'BeonRegular';
 	font-size: 30px;
 	font-weight: 700;
 	color: #ffffff;
 }
 .about-me-break {
-	width: 6px;
+	height: 20px;
 	border-radius: 5px;
 	background-color: #F2668F;
 }
-.section-3-description {
+.section-3-identity {
+	text-align: center;
 	font-family: 'BeonRegular';
 	font-size: 30px;
+	font-weight: 700;
+	color: #ffffff;
+}
+.section-3-description {
+	text-align: center;
+	font-family: 'BeonRegular';
+	font-size: 20px;
 	font-weight: 700;
 	color: #ffffff;
 }
