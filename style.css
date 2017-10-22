@@ -5,8 +5,13 @@
 	width: 100%;
 	height: 900px;
 }
-.section-1-p {
-	float: right;
+.section-1-menu {
+	font-family: 'MegrimMedium';
+	font-size: 38px;
+	font-weight: 700;
+	color: #F2668F;
+}
+.section-1-name {
 	font-family: 'NemoyMedium';
 	font-size: 38px;
 	font-weight: 700;
