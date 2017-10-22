@@ -1,4 +1,5 @@
 #section-1 {
+	background: url(assets/section-1-backgroundImg.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
