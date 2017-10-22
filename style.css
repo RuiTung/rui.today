@@ -1,3 +1,5 @@
 #section-1 {
-	background-image: ;
+	background: url(https://github.com/RuiTung/ruideng.co/blob/master/assets/section-1-backgroundImg.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
 }
