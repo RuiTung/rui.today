@@ -4,8 +4,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-#section-1,
-#section-4 {
+#section-1 {
 	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-1-bg.jpg');
 }
 .section-1-menu {
@@ -59,8 +58,9 @@
 	font-weight: 700;
 	color: #ffffff;
 }
-#section-3 {
-	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-3-bg.jpg');
+#section-4 {
+	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-1-bg.jpg');
+	background-repeat: repeat !important;
 }
-#solo {padding: 20px;}
+/*#solo {padding: 20px;}*/
 
