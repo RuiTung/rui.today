@@ -1,11 +1,11 @@
 .container-fluid {
 	width: 100%;
 	height: 750px;
+	background-size: cover;
+	background-repeat: no-repeat;
 }
 #section-1 {
 	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-1-bg.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
 }
 .section-1-menu {
 	text-align: center;
@@ -22,8 +22,26 @@
 	color: #ffffff;
 }
 #section-2 {
-	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-1-bg.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
+	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg');
+}
+#section-3 {
+	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-3-bg.jpg');
+}
+.section-3-title {
+	font-family: 'BeonRegular';
+	font-size: 30px;
+	font-weight: 700;
+	color: #ffffff;
+}
+.about-me-break {
+	width: 6px;
+	border-radius: 5px;
+	background-color: #F2668F;
+}
+.section-3-description {
+	font-family: 'BeonRegular';
+	font-size: 30px;
+	font-weight: 700;
+	color: #ffffff;
 }
 
