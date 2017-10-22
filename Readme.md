@@ -1,1 +1,1 @@
-<img src="assets/test1.jpg">
+<img src="assets/section-1-backgroundImg.jpg">
