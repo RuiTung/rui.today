@@ -4,8 +4,7 @@
 	background-size: cover;
 	background-repeat: no-repeat;
 }
-#section-1,
-#section-4 {
+#section-1 {
 	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-1-bg.jpg');
 }
 .section-1-menu {
