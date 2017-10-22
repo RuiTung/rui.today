@@ -1,5 +1,5 @@
 #section-1 {
-	background-size: 100% 100%;
+	background-size: cover;
     background-repeat: no-repeat;
-	background-image: url('https://github.com/RuiTung/ruideng.co/blob/master/assets/section-1-backgroundImg.jpg');
+	background: url('https://github.com/RuiTung/ruideng.co/blob/master/assets/section-1-backgroundImg.jpg');
 }
