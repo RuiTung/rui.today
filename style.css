@@ -1,5 +1,9 @@
 #section-1 {
+<<<<<<< HEAD
 	background: url('https://github.com/RuiTung/ruideng.co/blob/master/assets/section-1-backgroundImg.jpg');
+=======
+	background-image: url('https://github.com/RuiTung/ruideng.co/blob/master/assets/test1.jpg');
+>>>>>>> master
 	background-size: cover;
 	background-repeat: no-repeat;
 }
