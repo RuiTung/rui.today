@@ -27,7 +27,8 @@
 #section-3 {
 	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-3-bg.jpg');
 }
-.section-3-title {
+.section-3-title,
+.section-4-title {
 	text-align: center;
 	padding-top: 40px;
 	font-family: 'BeonRegular';
