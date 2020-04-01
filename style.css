@@ -1,30 +1,56 @@
 html {
 	scroll-behavior: smooth;
 }
-
+a:link { text-decoration: none; }
+a:hover {
+	opacity: 1;
+	color: white;
+}
 .container-fluid {
 	width: 100%;
 	height: 750px;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+.row {
+	text-align: center;
+}
 #section-1 {
 	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-1-bg.jpg');
 }
+
 .section-1-menu {
-	text-align: center;
+	opacity: 0.8;
 	font-family: 'BeonRegular';
 	font-size: 30px;
 	font-weight: 700;
-	color: #F2668F;
+	color: white;
+	border-top: 2px solid #ffad33;
+}
+.section-1-menu:hover {
+	border-top: 4px solid #ffad33;
 }
 .section-1-name {
-	text-align: left;
+	animation: fadein forwards;
+	animation-delay: 2s;
+	animation-duration: 4s;
+	opacity: 0;
 	font-family: 'RalewayRegular';
 	font-size: 38px;
 	font-weight: 700;
 	color: #ffffff;
-
+}
+@keyframes fadein {
+	to { opacity: 0.9; }
+}
+.displayInlineBlock { display: inline-block; }
+#emphasizer { 
+	color: #ffad33;
+	font-weight: bold;
+}
+.menu-row,
+.name-row {
+	margin-top: 5px;
 }
 #section-2 {
 	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg');
@@ -32,36 +58,31 @@ html {
 #section-3 {
 	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-3-bg.jpg');
 }
-.section-3-title,
-.section-4-title,
-.section-5-title {
-	text-align: center;
+.section-title {
 	padding-top: 40px;
 	font-family: 'IndieFlowerRegular';
 	font-size: 30px;
 	font-weight: 700;
 	color: #ffffff;
+	opacity: 0.9;
 }
-.identity-descriptions {padding: 80px 80px 0 80px;}
+.identity-descriptions { padding: 30px; }
 .about-me-break {
 	height: 5px;
     width: 40px;
     border: none;
     border-radius: 10px;
-	background-color: #F2668F;
-	text-align: center;
+	background-color: #ffad33;
 }
 .section-3-identity {
-	text-align: center;
 	font-family: 'IndieFlowerRegular';
 	font-weight: 700;
 	font-size: 30px;
 	font-weight: 700;
-	color: #ffffff;
+	color: #ffad33;
 	opacity: 0.9;
 }
 .section-3-description {
-	text-align: center;
 	font-family: 'IndieFlowerRegular';
 	font-size: 20px;
 	font-weight: 300;
@@ -72,7 +93,25 @@ html {
 	background-repeat: repeat !important;
 }
 #section-5 {
-	background-image: url();
+	background-image: url(https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-5-bg.jpg);
 }
 /*#solo {padding: 20px;}*/
-
+#topBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 30px;
+	z-index: 99;
+	font-size: 18px;
+	border: none;
+	outline: none;
+	background-color: #ffad33;
+	color: white;
+	cursor: pointer;
+	padding: 15px;
+	border-radius: 4px;
+	opacity: 0.4;
+}
+#topBtn:hover {
+	opacity: 0.8;
+}

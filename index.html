@@ -22,7 +22,7 @@
 	<nav class="container-fluid" id="section-1">
 		<div class="row menu-row">
 			<div class="col-lg-3 col-md-3 col-sm-3">
-				<a class="section-1-menu">Home</a>
+				<a class="section-1-menu" href="section-1">Home</a>
 			</div>
 
 			<div class="col-lg-3 col-md-3 col-sm-3">
@@ -38,11 +38,16 @@
 			</div>
 		</div>
 		
-		<div class="row">
-			<div class="col-lg-10 col-md-10 col-md-10 col-xs-6"></div>
-			<div class="col-lg-2 col-md-2 col-md-2 col-xs-6">
+		<div class="row name-row">
+			<div class="col-lg-12 col-md-12 col-md-12 col-xs-12"></div>
+			<!-- <div class="col-lg-2 col-md-2 col-md-2 col-xs-6"> -->
+				<br><br><br>
 				<h1 class="section-1-name">Rui</h1>
-			</div>
+				<h1 class="section-1-name displayInlineBlock">Hello</h1>
+				<h1 class="section-1-name displayInlineBlock" id="emphasizer">,</h1>
+				<h1 class="section-1-name displayInlineBlock">World</h1>
+				<h1 class="section-1-name displayInlineBlock" id="emphasizer">!</h1>
+			<!-- </div> -->
 		</div>
 	</nav><!--end section-1-->
 
@@ -51,7 +56,7 @@
 	<div class="container-fluid" id="section-3">
 		<div class="container">
 			<div class="row">
-				<h2 class="section-3-title">About Me</h2>
+				<h2 class="section-title">About Me</h2>
 			</div>
 			<div class="row">
 				<div class="identity-descriptions">
@@ -62,21 +67,21 @@
 					</div>
 
 					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+						<h2 class="section-3-identity">Photographer</h2>
+						<hr class="about-me-break"></hr>	
+						<p class="section-3-description">I am a photographer using camera to record wonderful moment in my universe.</p>
+					</div>
+
+					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 						<h2 class="section-3-identity">Student</h2>
 						<hr class="about-me-break"></hr>	
-						<p class="section-3-description">I graduated from the University of Victoria with major Computer Science..</p>
+						<p class="section-3-description">I graduated from the University of Victoria with major Computer Science.</p>
 					</div>
 
 					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
 						<h2 class="section-3-identity">Engineer</h2>
 						<hr class="about-me-break"></hr>	
 						<p class="section-3-description">I used to be a Document Control Supervisor in China Petroleum Engineering Construction Corp.</p>
-					</div>
-
-					<div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
-						<h2 class="section-3-identity">Photographer</h2>
-						<hr class="about-me-break"></hr>	
-						<p class="section-3-description">I am a photographer using camera to record wonderful moment in my universe.</p>
 					</div>
 				</div>
 			</div><!--end row-->
@@ -85,7 +90,7 @@
 
 	<div class="container-fluid" id="section-4">
 		<div class="row">
-			<h2 class="section-4-title">Portfolios</h2>
+			<h2 class="section-title">Portfolios</h2>
 		</div>
 		<div class="row">
 			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="solo">
@@ -135,35 +140,25 @@
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="solo">
-				<div class="thumbnail">
-					<a href="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg" target="_blank">
-						<img src="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg">
-					</a>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="solo">
-				<div class="thumbnail">
-					<a href="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg" target="_blank">
-						<img src="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg">
-					</a>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="solo">
-				<div class="thumbnail">
-					<a href="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg" target="_blank">
-						<img src="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg">
-					</a>
-				</div>
-			</div>
-		</div>
-		<div class="row">
 			<p class="show-more">Show More</p>
 		</div>
 	</div><!--end section-4-->
 
 	<div class="container-fluid" id="section-5">
-		
+		<div class="row">
+			<h2 class="section-title displayInlineBlock">Contact</h2>
+			<h2 class="section-title displayInlineBlock" id="emphasizer">.</h2>
+			<div class="identity-descriptions">
+				<p class="section-3-description">
+					<a href="mailto:ruimavic@gmail.com">ruimavic@gmail.com</a>
+				</p>
+				<p class="section-3-description">778-922-3861</p>
+				<hr class="about-me-break"></hr>
+			</div>
+		</div>
+		<div class="row">
+			<button onclick="initTop()" id="topBtn" title="Go to top">Top</button>
+		</div>
 	</div>
 </body>
 </html>
