@@ -15,6 +15,11 @@ a:hover {
 .row {
 	text-align: center;
 }
+img.sub {
+	vertical-align: sub;
+	height: 42px;
+	padding-right: 10px;
+}
 #section-1 {
 	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-1-bg.jpg');
 }
