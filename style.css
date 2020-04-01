@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 .container-fluid {
 	width: 100%;
 	height: 750px;
@@ -20,6 +24,7 @@
 	font-size: 38px;
 	font-weight: 700;
 	color: #ffffff;
+
 }
 #section-2 {
 	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg');
@@ -28,10 +33,11 @@
 	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-3-bg.jpg');
 }
 .section-3-title,
-.section-4-title {
+.section-4-title,
+.section-5-title {
 	text-align: center;
 	padding-top: 40px;
-	font-family: 'BeonRegular';
+	font-family: 'IndieFlowerRegular';
 	font-size: 30px;
 	font-weight: 700;
 	color: #ffffff;
@@ -42,25 +48,31 @@
     width: 40px;
     border: none;
     border-radius: 10px;
-    background-color: #F2668F;
+	background-color: #F2668F;
+	text-align: center;
 }
 .section-3-identity {
 	text-align: center;
-	font-family: 'BeonRegular';
+	font-family: 'IndieFlowerRegular';
+	font-weight: 700;
 	font-size: 30px;
 	font-weight: 700;
 	color: #ffffff;
+	opacity: 0.9;
 }
 .section-3-description {
 	text-align: center;
-	font-family: 'BeonRegular';
+	font-family: 'IndieFlowerRegular';
 	font-size: 20px;
-	font-weight: 700;
+	font-weight: 300;
 	color: #ffffff;
 }
 #section-4 {
 	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-1-bg.jpg');
 	background-repeat: repeat !important;
+}
+#section-5 {
+	background-image: url();
 }
 /*#solo {padding: 20px;}*/
 
