@@ -1,24 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>Rui's ...</title>
+  <title>Rui's...</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <!-- <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/nemoy" type="text/css"/> -->
-  <!-- <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/indie-flower" type="text/css"/> -->
-  <!-- <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/megrim" type="text/css"/> -->
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/beon" type="text/css"/>
   <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/raleway" type="text/css"/>
   <script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.15.1/plugins/ScrollToPlugin.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  
-  <script type="text/javascript" src="index.js"></script>
 </head>
-
-<body>
+<body >
 	<nav class="container-fluid" id="section-1">
 		<div class="row menu-row">
 			<div class="col-lg-3 col-md-3 col-sm-3">
@@ -43,7 +37,7 @@
 			<!-- <div class="col-lg-2 col-md-2 col-md-2 col-xs-6"> -->
 				<br><br><br>
 				<div class="name">
-					<img src="firstName_yellow.png" alt="firstName" class="section-1-name sub displayInlineBlock">
+					<img src="icons/firstName.png" alt="firstName" class="section-1-name sub displayInlineBlock">
 					<h1 class="section-1-name displayInlineBlock">Rui</h1>
 				</div>
 				<div class="cs">
@@ -94,60 +88,11 @@
 		</div><!--end container-->
 	</div><!--end section-3-->
 
-	<div class="container-fluid" id="section-4">
+	<div class="container-fluid imgFade" id="section-4">
 		<div class="row">
 			<h2 class="section-title">Portfolios</h2>
 		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="solo">
-				<div class="thumbnail">
-					<a href="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg" target="_blank">
-						<img src="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg">
-					</a>
-				</div>
-				
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="solo">
-				<div class="thumbnail">
-					<a href="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg" target="_blank">
-						<img src="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg">
-					</a>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="solo">
-				<div class="thumbnail">
-					<a href="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg" target="_blank">
-						<img src="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg">
-					</a>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="solo">
-				<div class="thumbnail">
-					<a href="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg" target="_blank">
-						<img src="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg">
-					</a>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="solo">
-				<div class="thumbnail">
-					<a href="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg" target="_blank">
-						<img src="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg">
-					</a>
-				</div>
-			</div>
-			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12" id="solo">
-				<div class="thumbnail">
-					<a href="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg" target="_blank">
-						<img src="https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg">
-					</a>
-				</div>
-			</div>
-		</div>
-		<div class="row">
-			<p class="show-more">Show More</p>
-		</div>
+		<div class="row" id="portfoliosRow"></div>
 	</div><!--end section-4-->
 
 	<div class="container-fluid" id="section-5">
@@ -165,13 +110,13 @@
 				<hr class="about-me-break"></hr>
 				
 				<a href="https://www.linkedin.com/in/rui-ma-349722119/" target="_blank">
-					<img src="li.jpg" alt="Linkedin" class="socialMedia">
+					<img src="icons/li-icon.jpg" alt="Linkedin" class="socialMedia">
 				</a>
 
-				<img src="download3.png" alt="qrCode" class="socialMedia" id="qrCode">
+				<img src="icons/qrCode2.png" alt="qrCode" class="socialMedia" id="qrCode">
 				
 				<a href="https://www.instagram.com/rd.ruideng/" target="_blank">
-					<img src="ig.jpg" alt="Instagram" class="socialMedia">
+					<img src="icons/ig-icon.jpg" alt="Instagram" class="socialMedia">
 				</a>
 			</div>
 		</div>
@@ -184,5 +129,8 @@
 			<p class="section-3-description">Copyright &copy; 2020 Rui Ma</p>
 		<!-- </div> -->
 	</footer>
+
+<script type="text/javascript" src="index.js"></script>
+
 </body>
 </html>

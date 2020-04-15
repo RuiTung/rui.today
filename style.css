@@ -20,7 +20,7 @@ img.sub {
 	padding-right: 10px;
 }
 #section-1 {
-	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-1-bg.jpg');
+	background-image: url('assets/Seattle.jpg');
 }
 
 .section-1-menu {
@@ -57,10 +57,10 @@ img.sub {
 	margin-top: 5px;
 }
 #section-2 {
-	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-2-bg.jpg');
+	background-image: url('assets/MapleLeaves.jpg');
 }
 #section-3 {
-	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-3-bg.jpg');
+	background-image: url('assets/InnerHabor.jpg');
 }
 .section-title {
 	padding-top: 40px;
@@ -71,7 +71,7 @@ img.sub {
 	opacity: 0.9;
 }
 .identity-descriptions { padding: 30px; }
-.about-me-break {
+hr.about-me-break {
 	height: 5px;
     width: 40px;
     border: none;
@@ -93,12 +93,9 @@ img.sub {
 	color: #ffffff;
 	margin-bottom: 0;
 }
-#section-4 {
-	background-image: url('https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-1-bg.jpg');
-	background-repeat: repeat !important;
-}
+
 #section-5 {
-	background-image: url(https://raw.githubusercontent.com/RuiTung/ruideng.co/master/assets/section-5-bg.jpg);
+	background-image: url("assets/EnglishBay.jpg");
 }
 /*#solo {padding: 20px;}*/
 #topBtn {
@@ -138,4 +135,16 @@ footer {
 	opacity: 0.8;
 	background-color: #ffad33;
 	bottom: 0;
+}
+img.fullWidth {
+	width: 100%;
+}
+
+.imgFade {
+	-webkit-transition: background-image 2s ease-in-out;
+	transition: background-image 2s ease-in-out;
+}
+
+.portfolios {
+	z-index: 99;
 }
