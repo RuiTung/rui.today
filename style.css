@@ -75,6 +75,8 @@ img.sub {
 	margin-top: 5px;
 }
 
+.name { padding-top: 70px; }
+
 #section-2 { background-image: url('assets/MapleLeaves.jpg'); }
 #section-3 { background-image: url('assets/InnerHabor.jpg'); }
 
