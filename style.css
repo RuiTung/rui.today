@@ -1,24 +1,39 @@
+/*
+Author: Rui
+Author URI: http://www.rui.today
+Description: style sheet for the idnex page
+*/
+
 html {
 	scroll-behavior: smooth;
 	text-align: center;
 }
+
+@font-face { font-family: BeonRegular; src: url('font/Beon/Beon-Regular.otf'); }
+
+@font-face { font-family: RalewayRegular; src: url('font/Raleway/Raleway-Regular.ttf'); }
+
 a:link { text-decoration: none; }
+
 a:hover {
 	cursor: pointer;
 	opacity: 1;
 	color: white;
 }
+
 .container-fluid {
 	width: 100%;
 	height: 750px;
 	background-size: cover;
 	background-repeat: no-repeat;
 }
+
 img.sub {
 	vertical-align: sub;
 	height: 42px;
 	padding-right: 10px;
 }
+
 #section-1 {
 	background-image: url('assets/Seattle.jpg');
 }
@@ -31,9 +46,9 @@ img.sub {
 	color: white;
 	border-top: 2px solid #ffad33;
 }
-.section-1-menu:hover {
-	border-top: 4px solid #ffad33;
-}
+
+.section-1-menu:hover { border-top: 4px solid #ffad33; }
+
 .section-1-name {
 	animation: fadein forwards;
 	animation-delay: 2s;
@@ -44,10 +59,13 @@ img.sub {
 	font-weight: 700;
 	color: #ffffff;
 }
+
 @keyframes fadein {
 	to { opacity: 0.9; }
 }
+
 .displayInlineBlock { display: inline-block; }
+
 #emphasizer { 
 	color: #ffad33;
 	font-weight: bold;
@@ -56,12 +74,10 @@ img.sub {
 .name-row {
 	margin-top: 5px;
 }
-#section-2 {
-	background-image: url('assets/MapleLeaves.jpg');
-}
-#section-3 {
-	background-image: url('assets/InnerHabor.jpg');
-}
+
+#section-2 { background-image: url('assets/MapleLeaves.jpg'); }
+#section-3 { background-image: url('assets/InnerHabor.jpg'); }
+
 .section-title {
 	padding-top: 40px;
 	font-family: 'RalewayRegular';
@@ -70,6 +86,7 @@ img.sub {
 	color: #ffffff;
 	opacity: 0.9;
 }
+
 .identity-descriptions { padding: 30px; }
 hr.about-me-break {
 	height: 5px;
@@ -78,14 +95,15 @@ hr.about-me-break {
     border-radius: 10px;
 	background-color: #ffad33;
 }
+
 .section-3-identity {
 	font-family: 'RalewayRegular';
 	font-weight: 700;
 	font-size: 30px;
-	font-weight: 700;
 	color: #ffad33;
 	opacity: 0.9;
 }
+
 .section-3-description {
 	font-family: 'RalewayRegular';
 	font-size: 20px;
@@ -94,10 +112,8 @@ hr.about-me-break {
 	margin-bottom: 0;
 }
 
-#section-5 {
-	background-image: url("assets/EnglishBay.jpg");
-}
-/*#solo {padding: 20px;}*/
+#section-5 { background-image: url("assets/EnglishBay.jpg"); }
+
 #topBtn {
 	display: none;
 	position: fixed;
@@ -114,37 +130,44 @@ hr.about-me-break {
 	border-radius: 10px;
 	opacity: 0.4;
 }
-#topBtn:hover {
-	opacity: 0.8;
-}
-#email {
-	color: #ffad33;
-}
-#email:hover {
-	color: #337ab7;
-}
+#topBtn:hover { opacity: 0.8; }
+#email { color: #ffad33; }
+
+#email:hover { color: #337ab7; }
+
 #qrCode {
 	height: 65px;
 	border-radius: 10px;
 }
+
 .socialMedia {
 	height: 90px;
 	opacity: 0.8;
 }
+
 footer {
 	opacity: 0.8;
 	background-color: #ffad33;
 	bottom: 0;
 }
-img.fullWidth {
-	width: 100%;
-}
+
+img.fullWidth { width: 100%; }
 
 .imgFade {
-	-webkit-transition: background-image 2s ease-in-out;
-	transition: background-image 2s ease-in-out;
+	-webkit-transition: background-image 3s ease-in-out;
+	transition: background-image 3s ease-in-out;
 }
 
-.portfolios {
-	z-index: 99;
+@media only screen and (min-width: 768px) {
+	.mobile { display: block; }
+}
+
+@media only screen and (max-width: 767px) {
+	[class*="col-"] {
+		padding-left: 0;
+	  	padding-right: 0;
+	}
+	.mobile { display: none; }
+	.section-1-menu { font-size: 18px; }
+	.mobilePadding { padding-top: 70px; }
 }

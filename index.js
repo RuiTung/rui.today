@@ -1,5 +1,9 @@
+/**
+ * @author Rui <ruimavic@smith.com>
+ * @description basic functions for the index page's slideshow and scroll button
+ */
+
 var portfolios = [
-    "ShadowButchartGarden.jpg",
     "CanadaPlace.jpg",
     "CanadaPlaceWaterDrop.jpg",
     "CloverPoint.jpg",
@@ -22,6 +26,7 @@ var portfolios = [
     "UniersityOfVictoria.jpg",
     "YellowBus.jpg"
 ];
+
 window.onscroll = function () {
     this.goToTop();
 }
@@ -45,12 +50,10 @@ var i = 0;
 setInterval(function() {
     if(section4) {
         if(i < portfolios.length) {
-            var test = "url(assets/" + portfolios[i] + ")";
-            section4.style.backgroundImage = test;
-            console.log(test);
+            section4.style.backgroundImage = "url(assets/" + portfolios[i] + ")";
             i += 1;
         } else {
             i = 0;
         }
     }
-}, 5000);
+}, 6000);
